@@ -1,5 +1,5 @@
 ## Binary-Class-Text-Classification-ML-NLP
-By Tri Tran and Prudhi Gadiraju
+By Tri Tran and Prudhvi Gadiraju
 
 ## Goal:
 
@@ -11,7 +11,7 @@ This is a large crawl of product reviews from Amazon. This dataset contains 82.8
 
 
 ## Data Processing (Tri )
-## Model Prep (Prudvhi)
+## Model Prep (Prudhvi)
 
 # Running instruction:
 
