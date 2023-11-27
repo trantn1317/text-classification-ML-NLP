@@ -17,8 +17,8 @@ The data we're providing on Kaggle is a slightly reformatted version of the orig
 
 For example, it contains whether the sentiment of the tweets in this set was positive, neutral, or negative for six US airlines: [Graph](https://www.kaggle.com/code/benhamner/exploring-airline-twitter-sentiment-data?scriptVersionId=0) 
 
-## Data Processing (Tri)
-## Model Prep (Prudhvi)
+Data Processing (Tri)
+Model Preparation (Prudhvi)
 
 # Running instruction:
 <br>git clone https://github.com/trantn1317/text-classification-ML-NLP.git<br>
@@ -31,8 +31,8 @@ For example, it contains whether the sentiment of the tweets in this set was pos
 ## References: 
 * Gresham, Richard. "Weak Supervision with Incremental Source." [Source](https://paperswithcode.com/paper/weak-supervision-with-incremental-source) 
 
-* Hosseini, Sohail. "Twitter US Airline Sentiment Analysis." [Source](https://towardsdatascience.com/twitter-us-airline-sentiment-analysis-91caa7a22a93)https://towardsdatascience.com/twitter-us-airline-sentiment-analysis-91caa7a22a93 
+* Hosseini, Sohail. "Twitter US Airline Sentiment Analysis." [Source](https://towardsdatascience.com/twitter-us-airline-sentiment-analysis-91caa7a22a93)
 
-* Rane, Ankita; Kumar, Anand. "Sentiment Analysis of Twitter Data." [Source](https://ieeexplore.ieee.org/document/8377739)https://ieeexplore.ieee.org/document/8377739 
-
- 
+* Rane, Ankita; Kumar, Anand. "Sentiment Analysis of Twitter Data." [Source](https://ieeexplore.ieee.org/document/8377739)
+  
+* Random Forest vs Logistic Regression: Binary Classification for Heterogeneous Datasets [Source](https://scholar.smu.edu/cgi/viewcontent.cgi?article=1041&context=datasciencereview)
