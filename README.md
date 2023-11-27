@@ -21,7 +21,12 @@ For example, it contains whether the sentiment of the tweets in this set was pos
 ## Model Prep (Prudhvi)
 
 # Running instruction:
-
+git clone https://github.com/trantn1317/text-classification-ML-NLP.git
+Check if Jupyter Notebook is installed.
+If not, install it by using pip install jupyter-notebook
+cd "into-the-repo-location" //make sure to replace this with your path to the cloned repo without quotes
+Once you are in jupyter environment, run the below file:
+basic_model.ipynb
 
 ## References: 
 * Gresham, Richard. "Weak Supervision with Incremental Source." [Source](https://paperswithcode.com/paper/weak-supervision-with-incremental-source) 
