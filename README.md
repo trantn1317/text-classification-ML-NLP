@@ -43,8 +43,12 @@ This project exemplifies the application of meta-learning through the Reptile al
 ## Steps to run
 
 git clone https://github.com/trantn1317/text-classification-ML-NLP.git
+
 Change directory to the folder cloned.
+
 Run data_processing.ipynb 
+
 It will output processed_data.csv which the Modelling.ipynb will use. This csv has been committed to our repo.
+
 Run Modelling.ipynb
 
