@@ -40,3 +40,11 @@ The meta-trained model achieves an approximate accuracy of 89% after one meta-ep
 
 This project exemplifies the application of meta-learning through the Reptile algorithm to fine-tune a DistilBERT model, specifically tailored for sentiment analysis on Amazon health and self-care product reviews. The included visualizations serve to enrich the insights into the distribution of ratings, review activity over time, and the helpfulness ratio of reviews within this particular product category.
 
+## Steps to run
+
+git clone https://github.com/trantn1317/text-classification-ML-NLP.git
+Change directory to the folder cloned.
+Run data_processing.ipynb 
+It will output processed_data.csv which the Modelling.ipynb will use. This csv has been committed to our repo.
+Run Modelling.ipynb
+
