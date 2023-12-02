@@ -25,7 +25,8 @@ Model Preparation (Prudhvi)
 <br>Check if Jupyter Notebook is installed.<br>
 <br>If not, install it by using pip install jupyter-notebook<br>
 <br>cd "into-the-repo-location" (make sure to replace this with your path to the cloned repo without quotes)<br>
-<br>Once you are in jupyter environment, run the below file:<br>
+<br>Once you are in jupyter environment, make sure you have the dataset file Tweets.csv, clean_data.csv, TextClassigication.ipynb and basic_model.ipynb have run the below file:<br>
+<br>TextClassification.ipynb (this one is for the data visualization and the lemmazation as mention in the Project Poster)<br>
 <br>basic_model.ipynb<br>
 
 ## References: 
