@@ -1,39 +1,42 @@
-## Binary-Class-Text-Classification-ML-NLP
-By Tri Tran and Prudhvi Raju
+# Meta-Learning with DistilBERT for Sentiment Analysis on Amazon Health & Self-Care Product Reviews
 
-## Goal: 
-This documentation details the implementation of sentiment analysis on Twitter data through machine learning methodologies. Python, alongside prominent libraries like pandas, seaborn, nltk, and scikit-learn, is employed for the analysis. The dataset encompasses tweets labeled with sentiments, specifically classified as positive, negative, and neutral. 
+## Project Overview
 
-The sentiment classification task in this context involves predicting one of the three sentiment labels for each tweet. To achieve this, we leverage two well-known machine learning algorithms: Random Forest and Logistic Regression. These algorithms are instrumental in handling the multiclass nature of the sentiment labels, aiding in the accurate categorization of tweets into positive, negative, or neutral sentiments. 
+This project employs meta-learning through the Reptile algorithm to enhance a DistilBERT model for sentiment analysis specifically tailored to Amazon product reviews within the health and self-care product category. The XML data undergoes loading, preprocessing, and meticulous cleaning procedures to ensure the creation of well-formed XML. The reviews are then extracted and transformed into a Pandas DataFrame for further analysis.
 
-## Dataset: 
-***
-This data originally came from Crowdflower's Data for Everyone library.
-As the original source says,
-###
-A sentiment analysis job about the problems of each major U.S. airline. Twitter data was scraped from February of 2015 and contributors were asked to first classify positive, negative, and neutral tweets, followed by categorizing negative reasons (such as "late flight" or "rude service").
+## Data Loading and Preprocessing
 
-The data we're providing on Kaggle is a slightly reformatted version of the original source. It includes both a CSV file and SQLite database. The code that does these transformations is available on [GitHub](https://github.com/benhamner/crowdflower-airline-twitter-sentiment)
+The XML data originating from Amazon health and self-care product reviews undergoes loading, escaping, and meticulous cleaning procedures to ensure the creation of well-formed XML. The reviews are then extracted and transformed into a Pandas DataFrame for further analysis.
 
-For example, it contains whether the sentiment of the tweets in this set was positive, neutral, or negative for six US airlines: [Graph](https://www.kaggle.com/code/benhamner/exploring-airline-twitter-sentiment-data?scriptVersionId=0) 
+## Rating Distribution Visualization
 
-Data Processing (Tri)
-Model Preparation (Prudhvi)
+To provide a comprehensive understanding of the product ratings in the health and self-care category, a countplot visualization is generated to illustrate the distribution of these ratings.
 
-# Running instruction:
-<br>git clone https://github.com/trantn1317/text-classification-ML-NLP.git<br>
-<br>Check if Jupyter Notebook is installed.<br>
-<br>If not, install it by using pip install jupyter-notebook<br>
-<br>cd "into-the-repo-location" (make sure to replace this with your path to the cloned repo without quotes)<br>
-<br>Once you are in jupyter environment, make sure you have the dataset file Tweets.csv, clean_data.csv, TextClassigication.ipynb and basic_model.ipynb have run the below file:<br>
-<br>TextClassification.ipynb (this one is for the data visualization and the lemmazation as mention in the Project Poster)<br>
-<br>basic_model.ipynb<br>
+## Review Activity Over Time Visualization
 
-## References: 
-* Gresham, Richard. "Weak Supervision with Incremental Source." [Source](https://paperswithcode.com/paper/weak-supervision-with-incremental-source) 
+A histogram is employed to visually represent the distribution of reviews over time, shedding light on the temporal dynamics of product reviews within the health and self-care category.
 
-* Hosseini, Sohail. "Twitter US Airline Sentiment Analysis." [Source](https://towardsdatascience.com/twitter-us-airline-sentiment-analysis-91caa7a22a93)
+## Helpfulness Ratio Distribution Visualization
 
-* Rane, Ankita; Kumar, Anand. "Sentiment Analysis of Twitter Data." [Source](https://ieeexplore.ieee.org/document/8377739)
-  
-* Random Forest vs Logistic Regression: Binary Classification for Heterogeneous Datasets [Source](https://scholar.smu.edu/cgi/viewcontent.cgi?article=1041&context=datasciencereview)
+An additional histogram is utilized to visually convey the distribution of the helpfulness ratio associated with reviews, offering insights into the perceived value of reviews in this specific product category.
+
+## Sentiment Analysis
+
+The DistilBERT model is employed in the training process of a sentiment analysis model, enhancing its ability to discern sentiments within Amazon health and self-care product reviews.
+
+## Meta-Learning with Reptile
+
+The application of the Reptile algorithm to train the DistilBERT model involves strategically managing batches and perturbing model parameters towards the current batch, contributing to the meta-learning process.
+
+## Model Evaluation
+
+The meta-trained model undergoes a rigorous evaluation on a dedicated test set comprising reviews. Evaluation metrics include accuracy, a comprehensive classification report, and a confusion matrix, providing a nuanced understanding of the model's performance.
+
+### Model Performance
+
+The meta-trained model achieves an approximate accuracy of 89% after one meta-epoch, showcasing its efficacy in sentiment analysis for reviews.
+
+## Conclusion
+
+This project exemplifies the application of meta-learning through the Reptile algorithm to fine-tune a DistilBERT model, specifically tailored for sentiment analysis on Amazon health and self-care product reviews. The included visualizations serve to enrich the insights into the distribution of ratings, review activity over time, and the helpfulness ratio of reviews within this particular product category.
+
